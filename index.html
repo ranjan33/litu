@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company website</title>
+    <style>
+        body{
+            font-family:"Comic Sans MS",sans-serif;
+            margin: 0px;
+
+
+        }
+        header , footer{
+            background: white url("img/img.gif") scroll no-repeat bottom;
+            background-size: cover;
+            padding: 70px;
+            color:red;
+            text-align: center;
+        }
+        footer{
+            line-height:10px;
+        }
+        /*---- main nabigatin ----*/
+        nav{
+            background-color:red;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+            padding: 10px 25px;
+            display:inline-block;
+            font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color:#FEF6F6;
+        }
+        nav ul li a.active{
+            background-color:gray;
+        }
+        /*---- side section----*/
+        aside{
+            background-color:lightblue;
+            float:left;
+            width:200px;
+            height:300px;
+            text-align: center;
+            overflow-y:scroll;
+        }
+        aside ul{
+            list-style-type:none;
+            padding: 0px;
+            margin: 0px;
+        }
+        aside ul li a{
+            text-decoration:none;
+            color: black;
+            padding: 15px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color:red;
+        }
+        /*-------- main section--------*/
+        section{
+            margin-left:200px;
+            border-left:2px solid gray;
+            padding: 10px;
+        }
+        details{
+            background-color:gray;
+            margin:5px;
+            padding:10px;
+            color: white;
+            border-radius:50px;
+            width:1100px;
+        }
+        article{
+            background-color:gray;
+            color: black;
+            padding:10px;
+            border-radius:50px;
+
+        }
+        summary{
+            outline:none;
+        }
+        img{
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- main header -->
+<header>
+    <h1>Uibrains Technologies</h1>
+    <p>The smart  way of learning</p>
+</header>
+<!-- main nabigation -->
+<nav>
+    <ul>
+        <li>
+            <a href="#" class="active">
+                <i class="fa fa"></i>Home</a>
+        </li>
+        <li>
+            <a href="#">About us</a>
+        </li>
+        <li>
+            <a href="#">Contact us</a>
+        </li>
+        <li>
+            <a href="#">Medicine</a>
+        </li>
+        <li>
+            <a href="#">Career</a>
+        </li>
+    </ul>
+</nav>
+<!-- sidebar section -->
+<aside>
+    <ul>
+        <li>
+            <a href="#">java</a>
+        </li>
+        <li>
+            <a href="#">oracle</a>
+        </li>
+        <li>
+            <a href="#">php</a>
+        </li>
+        <li>
+            <a href="#">dotnet</a>
+        </li>
+        <li>
+            <a href="#">Html</a>
+        </li>
+        <li>
+            <a href="#">Data science</a>
+        </li>
+    </ul>
+</aside>
+<!-- main content -->
+<section>
+
+
+    <!-- java ---->
+    <details>
+        <summary>java</summary>
+        <article>
+            <h3>java</h3>
+            <p style="text-align: center">lnvhbbjhjjhjhfdjjkhdfjhjhdjhrjhdfjfriykjhihtjkrhtjkhtjhrhgjkghihjjhfjhsjhhjehjhjtheihtjkehhtjkhtjhjkthjkhtjkhtkjhtjhtjthkjthjekhtuihtjkhtjrhtjkhtjkhhtjkhtkjtkrhjtkjthkthjkjtrkjturtjhtirthjjktjjkhtrkjhtithjtkhtjkthjktrktjt
+                kgrjjgrklgjiojgttkrjtkrnkrgjkjgrhjkrhjrhtrhtjhjrhthrrhhgrtjhgrjgrhgfhgkhgjbgjhgfjhgbjhfgjgbjhgffgjjfhgjjkhfgjkjghfjhjj</p>
+        </article>
+    </details>
+    <!-- oracle -->
+    <details>
+        <summary>oracle</summary>
+        <article>
+            <h3>oracle</h3>
+            <p style="text-align: center">huhfjrehjtjhkjhrhhrthkhhhjhjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+            gggggggggggggggggggggggjhfjhjhrjghrehjkehjkfhjkhjk</p>
+
+
+        </article>
+    </details>
+    <!-- php -->
+    <details>
+        <summary>php</summary>
+        <h3>php</h3>
+        <p>We are providing 12% discount on medicated medicine product,and also 5% discount on OTC product.</p>
+    </details>
+    <!----dotnet---->
+    <details>
+        <summary>dotnet</summary>
+        <h3>dotnet</h3>
+    </details>
+      <!------Html------->
+    <details>
+        <summary>Html</summary>
+        <h3>Html</h3>
+    </details>
+    <details>
+        <summary>Data science</summary>
+        <h3>Data science</h3>
+    </details>
+</section>
+<!-- main footer -->
+<footer>
+    <h2>Copyright &copy; 2019, Company website</h2>
+    <p>All right reserved</p>
+    <small>Developed & Maintained by Ranjan Panigrahi</small>
+</footer>
+</body>
+</html>
